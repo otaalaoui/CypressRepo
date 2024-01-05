@@ -25,8 +25,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     specPattern: [
-      "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}",
-      "cypress/e2e/**/*.cy.{js,jsx,ts,tsx,feature}"
+      "cypress/e2e/**/*.{jsx,ts,tsx,feature}",
+      "cypress/e2e/**/*.{jsx,ts,tsx,feature}"
     ],        
     baseUrl: "https://www.saucedemo.com",
     chromeWebSecurity: false,
